@@ -1,0 +1,31 @@
+{
+  "name": "template-ts",
+  "version": "0.0.1",
+  "type": "module",
+  "license": "Zlib",
+  "author": "Chloe Arciniega <solely@riseup.net>",
+  "description": "A TypeScript template for my projects.",
+  "packageManager": "yarn@3.3.1",
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc --watch",
+    "lint": "eslint .",
+    "prepublish": "rimraf ./dist && yarn build"
+  },
+  "repository": "https://github.com/solelychloe/template-ts.git",
+  "keywords": [
+    "typescript",
+    "template"
+  ],
+  "devDependencies": {
+    "@types/eslint": "^8.21.1",
+    "@types/prettier": "^2",
+    "eslint": "^8.34.0",
+    "eslint-config-clarity": "^1.0.1",
+    "eslint-import-resolver-typescript": "^3.5.3",
+    "eslint-plugin-import": "^2.27.5",
+    "eslint-plugin-prettier": "^4.2.1",
+    "prettier": "^2.8.4",
+    "rimraf": "^4.1.2"
+  }
+}
