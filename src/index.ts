@@ -3,6 +3,6 @@ export enum Greeting {
   age = 23,
 }
 
-export default async function greet(name: Greeting.name, age: Greeting.age) {
+export default function greet(name: Greeting.name, age: Greeting.age) {
   return `Hello, ${name}! You are ${age}.`;
 }
